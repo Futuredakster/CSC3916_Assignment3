@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const bcrypt = require('bcrypt'); // Use bcrypt, not bcrypt-nodejs
+require('dotenv').config();
 
 // No need for mongoose.Promise = global.Promise;
 
